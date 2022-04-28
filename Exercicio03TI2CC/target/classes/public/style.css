@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+}
+
+section > h4 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000
+}
+
+form > .row {
+    align-items: center;
+    margin: 10px auto;
+}
+
+form > .row > div {
+    font-size: 0.9em;
+    padding: 0px;
+}
+
+form > .row > div > .input-number {
+    width: 30%;
+}
+
+form > .row > div > .btn {
+    width: 75%;
+    padding: 2px;
+}
+
+section > table tr:nth-child(even) {
+    background-color: #f1d28e;
+}
+
+section > table tr:nth-child(odd) {
+    background-color: #9ba4f8;
+}
+
+section > table tr:nth-child(1) {
+    background-color: #f0f0f0;
+}
+
+section > table tr > th {
+    width: 110px;
+    padding: 5px;
+}
+
+section > table tr > td {
+    padding: 5px;
+}
+
+section > table tr > td > i {
+    cursor: pointer;
+}
